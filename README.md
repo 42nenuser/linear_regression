@@ -1,6 +1,6 @@
-# 🚗 Car Price Prediction Web App
+# 🚗 Basic Car Price Prediction Web App based on the 42 project linear regression
 
-This project is a **machine learning-powered web application** that predicts **car prices** based on the number of kilometers driven. It uses a **pre-trained Linear Regression model** and serves predictions via a **Django REST API** with a simple **HTML, CSS, and JavaScript frontend**.
+This project is a simple **machine learning-powered web application** that predicts **car prices** based on the number of kilometers driven. It uses a **pre-trained Linear Regression model** and serves predictions via a **Django REST API** with a simple **HTML, CSS, and JavaScript frontend**.
 
 ---
 
