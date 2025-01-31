@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Car Price Prediction</h2>
+        <label for="km">Enter Kilometers Driven:</label>
+        <input type="number" id="km" placeholder="Enter km">
+        <button onclick="predictPrice()">Predict Price</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
